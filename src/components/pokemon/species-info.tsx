@@ -11,6 +11,8 @@ type Props = {
   pokemonData: PokemonData;
 };
 
+// Find the dependency
+
 export default function SpeciesInfo({ pokemonData }: Props) {
   const { data: speciesInfo, isLoading } = useGetSpeciesInfo(
     pokemonData.species.url
