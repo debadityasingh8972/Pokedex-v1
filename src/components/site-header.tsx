@@ -12,7 +12,7 @@ export default function SiteHeader({}: Props) {
         <MainNav />
         <div className="flex flex-1 items-center justify-between space-x-2 sm:space-x-4 md:justify-end">
           <a
-            href={"https://github.com/Kyuuari/another-pokedex"}
+            href={"https://github.com/debadityasingh8972/Pokedex-v1"}
             target="_blank"
             rel="noreferrer"
             aria-label="github link"
@@ -21,7 +21,7 @@ export default function SiteHeader({}: Props) {
             <Icons.gitHub className=" h-6 w-6 md:inline-block" />
           </a>
           <a
-            href={"https://twitter.com/Kyu_uari"}
+            href={"https://twitter.com/debaditya5972"}
             target="_blank"
             rel="noreferrer"
             aria-label="twitter link"
